@@ -1,0 +1,143 @@
+@media screen and (max-width: 768px) {
+    header {
+        padding: 33px 45px 34px 19px;
+    }
+
+    nav, .search-wrapper {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .logo {
+        margin-right: 0;
+        width: 93px;
+    }
+
+    .topic-right_buttons, .topic-left {
+        display: none;
+    }
+
+    .topic-right {
+        background: url("../img/img-Skeleton_media.png") no-repeat center;
+        background-size: cover;
+        height: 1300px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .topic-right_details {
+        margin-bottom: 22px;
+    }
+
+    .banner, .banner_low {
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .banner-right, .banner-left, .banner-right_low, .banner-left_low {
+        width: 100%;
+        margin: 0;
+    }
+
+    .banner-left, .banner-left_low {
+        margin-bottom: 26px;
+    }
+
+    .new-arrivals h2 {
+        text-align: center;
+    }
+
+    .brands {
+        text-align: center;
+    }
+
+    .brands h2:first-child {
+        display: none;
+    }
+
+    .brands h2:nth-child(2) {
+        display: block;
+    }
+
+    .new-arrivals_tab > :not(:first-child, :last-child, :nth-last-child(2)) {
+        display: none;
+    }
+
+    .arrow-right img, .arrow-left img {
+        width: 44px;
+    }
+
+    .new-arrivals_tab {
+        justify-content: space-evenly;
+    }
+
+    #sale {
+        display: none;
+    }
+
+    .brands .arrow-left, .brands .arrow-right {
+        display: block;
+    }
+
+    .brand {
+        display: none
+    }
+
+    .brands-line:last-child .brand:first-child {
+        margin: 0;
+        display: block;
+        width: 48%;
+    }
+
+    .advantages-line div {
+        transform: scale(50%);
+        margin: 0 38px;
+    }
+
+    .advantages h1 {
+        font-size: 42px;
+        line-height: 51px;
+        margin: 0 120px;
+    }
+
+    footer {
+        margin: 0;
+    }
+
+    footer div:first-child {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 59px;
+    }
+
+    footer .logo {
+        display: none;
+    }
+
+    footer .subscribe {
+        display: flex;
+        flex-direction: column;
+        margin-top: 42px;
+    }
+
+    footer .subscribe input {
+        width: 270px;
+    }
+
+    footer h2 {
+        margin: 0 180px;
+    }
+
+    .bigLogo {
+        display: flex;
+        margin: 33px;
+    }
+
+    .bigLogo img {
+        height: 250px;
+    }
+}
